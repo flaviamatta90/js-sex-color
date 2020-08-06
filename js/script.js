@@ -10,9 +10,10 @@ console.log('il tuo sesso è ' + sesso);
 //
 
 if (sesso == femmina) {
-   document.getElementById("femmina").style.color = '#B44188';
+  document.getElementById('femmina').innerHTML = 'Ciao ' + nome;
+   document.getElementById('femmina').style.color = '#e43f6f';
 } else(sesso == maschio)
 {
-  document.getElementById("maschio").style.color = '#090c9b';
+  document.getElementById('maschio').innerHTML = 'Ciao ' + nome;
+  document.getElementById('maschio').style.color = '#090c9b';
 }
-document.getElementById('prova').innerHTML = 'Ciao ' + nome;
