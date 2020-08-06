@@ -17,8 +17,12 @@ if (sesso == 'maschio')
 {
   document.getElementById('azzurro').innerHTML = 'Ciao ' + nome;
    document.getElementById('azzurro').style.color = '#090c9b';
-} else
+} else if (sesso == 'femmina')
 {
   document.getElementById('rosa').innerHTML = 'Ciao ' + nome;
   document.getElementById('rosa').style.color = '#e43f6f';
+}
+else (isNaN(femmina) || isNaN(maschio))
+{
+
 }
