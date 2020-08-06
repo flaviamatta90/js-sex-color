@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#femmina{
+  color: #B44188;
+}
+
+#maschio{
+  color: #090c9b;
+}
