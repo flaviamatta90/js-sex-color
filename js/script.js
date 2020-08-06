@@ -24,5 +24,5 @@ if (sesso == 'maschio')
 }
 else (isNaN(femmina) || isNaN(maschio))
 {
-
+alert('Hai sbagliato qualcosa!')
 }
