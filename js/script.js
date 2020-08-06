@@ -9,11 +9,16 @@ console.log('il tuo sesso è ' + sesso);
 // il colore del nome deve essere rosa se è femmina e azzurro se è maschio
 //
 
-if (sesso == femmina) {
-  document.getElementById('femmina').innerHTML = 'Ciao ' + nome;
-   document.getElementById('femmina').style.color = '#e43f6f';
-} else(sesso == maschio)
+var femmina = 'femmina';
+var maschio = 'maschio';
+
+
+if (sesso == 'maschio')
 {
-  document.getElementById('maschio').innerHTML = 'Ciao ' + nome;
-  document.getElementById('maschio').style.color = '#090c9b';
+  document.getElementById('azzurro').innerHTML = 'Ciao ' + nome;
+   document.getElementById('azzurro').style.color = '#090c9b';
+} else(sesso == 'femmina')
+{
+  document.getElementById('rosa').innerHTML = 'Ciao ' + nome;
+  document.getElementById('rosa').style.color = '#e43f6f';
 }
