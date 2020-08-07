@@ -5,7 +5,7 @@ console.log('ciao ' + nome);
 var sesso = prompt('Sei femmina o maschio?');
 console.log('il tuo sesso è ' + sesso);
 
-if (sesso != 'maschio' || sesso != 'femmina') {
+if (sesso != 'maschio' && sesso != 'femmina') {
   sesso = prompt('Ri inserisci il sesso');
 }
 
