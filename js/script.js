@@ -5,24 +5,17 @@ console.log('ciao ' + nome);
 var sesso = prompt('Sei femmina o maschio?');
 console.log('il tuo sesso è ' + sesso);
 
+document.getElementById('nome-utente').innerHTML = nome;
+
 // 3 Sulla pagina deve apparire ciao e nome
 // il colore del nome deve essere rosa se è femmina e azzurro se è maschio
 //
 
-var femmina = 'femmina';
-var maschio = 'maschio';
-
-
 if (sesso == 'maschio')
 {
-  document.getElementById('azzurro').innerHTML = 'Ciao ' + nome;
-   document.getElementById('azzurro').style.color = '#090c9b';
-} else if (sesso == 'femmina')
-{
-  document.getElementById('rosa').innerHTML = 'Ciao ' + nome;
-  document.getElementById('rosa').style.color = '#e43f6f';
-}
-else (isNaN(femmina) || isNaN(maschio))
-{
-alert('Hai sbagliato qualcosa!')
+  document.getElementById('nome-utente').style.color = '#090c9b';
+} else if (sesso == 'femmina'){
+  document.getElementById('nome-utente').style.color = '#e43f6f';
+} else{
+  alert('Hai sbagliato qualcosa!')
 }
